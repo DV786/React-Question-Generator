@@ -1,0 +1,101 @@
+/******************Quiz Form**************/
+.App{
+  display: flex;
+  align-items: center;
+}
+
+.select-form{
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  
+}
+
+.selec-menu{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+.dropdown{
+  margin-bottom: 16px;
+}
+
+.select-label{
+  margin: 8px;
+}
+.select-input{
+  padding: 4px;
+}
+
+.start-btn, .restart-btn{
+  padding: 6px;
+  border-radius: 12px;
+}
+
+.question-details{
+  display: flex;
+  align-items: center;
+}
+.question-equation{
+  margin: 8px;
+}
+
+.question-input{
+  width: 48px;
+}
+
+.question{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.question-detail{
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.question-section{
+  margin-bottom: 8px;
+}
+.question-text{
+  margin-right: 8px;
+}
+.question-timer{
+  margin-left: 20px;
+}
+.question-text span {
+  margin-right: 8px;
+}
+.answer-input{
+  width: 15%;
+  margin-right: 4px;
+}
+.dashboard{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+}
+.score{
+  font-size: 20px;
+  font-weight: 400;
+}
+.score span{
+  font-size: 22px;
+  font-weight: 700;
+}
+table,td, th {
+  border: 1px solid black;
+  padding: 8px;
+} 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  font-weight: 700;
+}
+.error-false{
+  color: red;
+}
